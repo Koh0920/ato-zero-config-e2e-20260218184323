@@ -1,0 +1,12 @@
+schema_version = "0.2"
+name = "ato-zero-config-e2e-20260218184323"
+version = "0.0.1"
+type = "app"
+default_target = "cli"
+
+[metadata]
+description = "E2E validation capsule"
+
+[targets.cli]
+runtime = "source"
+entrypoint = "main.py"
